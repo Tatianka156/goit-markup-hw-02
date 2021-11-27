@@ -1,11 +1,12 @@
-body
+body {
 font-family: Roboto;
+color:#212121
+}
 
 header a,
 footer a {
   color: #000;
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
@@ -13,29 +14,37 @@ footer a {
 }
 .web {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
   color: #2196f3;
 }
-.navi-class{
-  link:active;
-  link:hover;
-  link:visited;
+.navi-class {
+ display: flex;}
+
+.link:hover {
+    color:#2196F3;
+  }
+.link:focus{
+   color:#2196F3;
 }
 
-header li,
-a {
-  display: inline;
+  li:active {
+    color:#2196f3;
+  };
+  li:hover;
+  li:visited {
+    color: #2196f3;
+  };
+
 }
-div h3{
-font-style: normal;
+div h3 {
 font-weight: bold;
 font-size: 14px;
 line-height: 16px;
-color: #212121
-display: inline;
+color: #212121;
+display: flex;
+flex-direction: row;
 }
 
 .principles {
