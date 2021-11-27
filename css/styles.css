@@ -1,20 +1,17 @@
-.navigate {
-  position: absolute;
-  width: 1600px;
-  height: 80px;
-  background: #ffffff;
-}
+body
+font-family: Roboto;
 
-.logo {
-  padding: 24, 1240, 25, 215;
+header a,
+footer a {
+  color: #000;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
 }
 .web {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -22,75 +19,25 @@
   line-height: 31px;
   color: #2196f3;
 }
-
-.studio {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  color: #000000;
+.navi-class{
+  link:active;
+  link:hover;
+  link:visited;
 }
 
-.all-order {
-  background: #2f303a;
-  position: absolute;
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
+header li,
+a {
+  display: inline;
 }
-.title-name {
-  position: 195px 442px 1954px 462px;
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 65px;
-  background: #2f303a;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-
-  text-align: center;
-  color: #ffffff;
+div h3{
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+color: #212121
+display: inline;
 }
 
-.order:hover {
-  background-color: #2196f3;
-  color: #ffffff;
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-}
-
-.button {
-  position: absolute;
-  width: 136px;
-  height: 30px;
-  left: 732px;
-  top: 440px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 30px;
-
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-
-  color: #ffffff;
+.principles {
+  display: inline;
 }
