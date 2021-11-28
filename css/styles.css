@@ -116,13 +116,22 @@ div h3 {
   margin: 0 auto;
   padding-left: 10px;
   text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
 }
+.main {
+  width: 1250px;
+  left: 215px;
+}
+
 .button {
   cursor: pointer;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
+  margin-right: 30px;
+  display: inline-block;
 }
 .order-1 {
   text-decoration: none;
@@ -130,6 +139,7 @@ div h3 {
   position: centre;
 }
 .all-projects {
-  display: inline;
+  display: inline-block;
+  margin-right: 5px;
   text-decoration: none;
 }
