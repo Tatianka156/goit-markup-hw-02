@@ -3,6 +3,9 @@ body {
   color: #212121;
 }
 
+.site-hat {
+  width: 100%;
+}
 .web {
   font-family: Raleway;
   font-weight: bold;
@@ -34,6 +37,7 @@ body {
 
 .all-order {
   background-color: #2f303a;
+  width: 1600px;
   color: #ffffff;
   align-items: center;
   padding-left: 442px;
