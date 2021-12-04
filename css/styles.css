@@ -16,7 +16,6 @@ body {
 .web {
   font-family: Raleway;
   font-weight: bold;
-  font-size: 26px;
   line-height: 31px;
   color: #2196f3;
 }
@@ -28,7 +27,6 @@ body {
 
   font-family: Raleway;
   font-weight: bold;
-  font-size: 26px;
   line-height: 0.31;
   letter-spacing: 0.03em;
 
@@ -37,24 +35,34 @@ body {
 }
 
 .link {
-  width: 68px;
-  height: 17px;
-
   color: var(--main-color-text);
   background-color: var(--main-background-color);
   font-weight: 500;
   font-size: 14px;
   text-decoration: none;
   list-style-type: none;
-  line-height: 0.16;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-  text-align: center;
+}
+
+.link-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 .link:hover,
 .link:focus,
+.link-contact:focus,
+.link-contact:hover,
 .footer:hover,
-.footer:focus {
+.footer:focus,
+.footer-contact:focus,
+.footer-contact:hover {
   color: #2196f3;
 }
 
@@ -67,10 +75,6 @@ body {
 
 .title-name {
   position: center;
-  width: 696px;
-  height: 120px;
-  left: 439px;
-  top: 280px;
 
   font-weight: 900;
   font-size: 44px;
@@ -88,20 +92,14 @@ body {
   color: var(--main-background-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  width: 200px;
-  height: 50px;
   text-align: center;
   letter-spacing: 0.06em;
 }
 
 .principles {
-  width: 270px;
-  height: 75px;
-  top: 800px;
-
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -113,10 +111,6 @@ body {
 }
 
 div h3 {
-  width: 270px;
-  height: 16px;
-  top: 774px;
-
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -127,26 +121,20 @@ div h3 {
 }
 
 .section-title {
-  position: centre;
-  left: 612px;
   text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .section {
-  display: inline-block;
-  top: 1061px;
-  left: 215px;
   text-align: center;
-
   list-style-type: none;
 }
 
 .command {
-  width: 137px;
-  height: 19px;
-  left: 882px;
-  top: 1926px;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -168,17 +156,11 @@ div h3 {
   background-color: #2f303a;
   color: var(--main-color-text-darkbackground);
   align-items: center;
-  font-weight: 500;
   font-size: 14px;
 
   text-decoration: none;
 }
 .logo-footer {
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 2157px;
-
   color: var(--main-color-text-darkbackground);
   font-family: Raleway;
   font-weight: bold;
@@ -188,16 +170,21 @@ div h3 {
   letter-spacing: 0.03em;
 }
 .footer {
-  width: 231px;
-  height: 21px;
-  left: 215px;
-  top: 2208px;
   font-style: normal;
   text-decoration: none;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-color-text-darkbackground);
+}
+
+.footer-contact {
+  font-style: normal;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .button {
@@ -208,8 +195,7 @@ div h3 {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color-text);
-
-  box-shadow: rgba(0, 0, 0, 0.1);
+  background: #f5f4fa;
   border: none;
   border-radius: 4px;
 }
@@ -218,6 +204,9 @@ div h3 {
 .button:hover {
   background-color: #2196f3;
   color: var(--main-color-text-darkbackground);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .order-1 {
@@ -225,7 +214,6 @@ div h3 {
   text-decoration: none;
   background-color: var(--main-background-color);
   color: var(--main-color-text);
-  background: #f5f4fa;
 }
 
 .all-projects {
