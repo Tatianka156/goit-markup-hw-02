@@ -141,10 +141,6 @@ div h3 {
   list-style-type: none;
 }
 
-.navi-class {
-  display: inline-block;
-}
-
 .command {
   width: 137px;
   height: 19px;
@@ -204,10 +200,6 @@ div h3 {
   color: var(--main-color-text-darkbackground);
 }
 
-.main {
-  background-color: var(--main-background-color);
-}
-
 .button {
   cursor: pointer;
   font-weight: 500;
@@ -231,7 +223,7 @@ div h3 {
 .order-1 {
   list-style-type: none;
   text-decoration: none;
-
+  background-color: var(--main-background-color);
   color: var(--main-color-text);
   background: #f5f4fa;
 }
